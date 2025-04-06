@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.result-container {
+  width: 500px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.result {
+  padding: 3px;
+  display: block;
+  margin: 5px;
+}
+
+.result:hover {
+  background-color: rgb(212, 217, 157);
+  cursor: pointer;
+}
